@@ -1,0 +1,37 @@
+{
+  "name": "desktop-covid19",
+  "version": "1.0.0",
+  "description": "An app to display the latest visualizations of the Novel Coronavirus (COVID-19)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri": "tauri",
+    "build": "npm run tauri build",
+    "main": "src-tauri/target/release/DesktopCovid19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AP2008/DesktopCovid19.git"
+  },
+  "keywords": [
+    "coronavirus",
+    "covid19",
+    "data",
+    "visualization",
+    "javascript",
+    "tauri",
+    "rust"
+  ],
+  "author": "Aratrik Pal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AP2008/DesktopCovid19/issues"
+  },
+  "homepage": "https://github.com/AP2008/DesktopCovid19#readme",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta.2"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.0-beta.1"
+  }
+}
